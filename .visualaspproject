@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <visualaspproject version="2">
   <visualaspdlvfile URI="/container.dl" ENABLED="true" TYPE="dlvFile" />
+  <visualaspdlvfile URI="/container_test2.dl" ENABLED="true" TYPE="dlvFile" />
+  <visualaspdlvfile URI="/container_test1.dl" ENABLED="true" TYPE="dlvFile" />
+  <visualaspdlvfile URI="/container_check.dl" ENABLED="true" TYPE="dlvFile" />
+  <visualaspdlvfile URI="/container_guess.dl" ENABLED="true" TYPE="dlvFile" />
 </visualaspproject>
 

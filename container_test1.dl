@@ -1,8 +1,16 @@
 
+colsucc(1,2).
+rowsucc(1,2).
 
+container(c1,1,1). container(c1,1,2).
+container(c1,2,1).
 
-colsucc(1,2). rowsucc(1,2).
+colsum(1,2).
+colsum(2,1).
 
-container(c1,1,1). container(c1,1,2). container(c1,2,1).
+rowsum(1,2).
+rowsum(2,1).
 
-rowsum(1,2). rowsum(2,1). colsum(1,2). colsum(2,1).
+filled(1, 1).
+filled(1, 2).
+filled(2, 1).
