@@ -1,8 +1,8 @@
 <it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>
   <tagVersion>3</tagVersion>
-  <name>[one.dl]</name>
+  <name>[ALL_FILES]</name>
   <executableName></executableName>
-  <executablePath>/usr/bin/dlv</executablePath>
+  <executablePath>/usr/local/bin/dlv</executablePath>
   <outputType>Table</outputType>
   <saveAutomatically>false</saveAutomatically>
   <maxModelNumberChecked>false</maxModelNumberChecked>
@@ -11,15 +11,10 @@
   <maxInt>-1</maxInt>
   <moreOptionsChecked>false</moreOptionsChecked>
   <moreOptions></moreOptions>
-  <filtersChecked>true</filtersChecked>
+  <filtersChecked>false</filtersChecked>
   <filters></filters>
-  <projectName>test</projectName>
-  <rewriteFileList>
-    <it.unical.mat.aspide.closed.model.RewriteFile>
-      <filePath>/one.dl</filePath>
-      <rewritePlugin>---</rewritePlugin>
-    </it.unical.mat.aspide.closed.model.RewriteFile>
-  </rewriteFileList>
+  <projectName>ewbs</projectName>
+  <rewriteFileList/>
   <rewriteCollector/>
-  <lastRun>2014-11-27 22:30:43.774 CET</lastRun>
+  <lastRun>2014-11-27 23:36:18.57 CET</lastRun>
 </it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>
