@@ -1,0 +1,18 @@
+
+
+
+% column X1 is followed by column X2
+% colsuc(X1, X2). 
+
+% row Y1 to be followed by row Y2
+% rowsuc(Y1, Y2).
+
+% in column X there are S filled cells
+% colsum(X, S). 
+
+% row Y exhibits S filled cells
+% rowsum(Y, S). 
+
+% all cells with the same C form a container
+% container(C, X, Y). 
+
