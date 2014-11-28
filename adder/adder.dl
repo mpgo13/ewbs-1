@@ -16,3 +16,55 @@
 %   a_in(Value)
 %   b_in(Value)
 %   c_in(Value)
+
+
+
+% logical AND
+out(G, 1) :- 
+    and(G),
+    in1(G, 1),
+    in2(G, 1).
+
+out(G, 0) :-
+    and(G),
+    in1(G, 0).
+
+out(G, 0) :- 
+    and(G),
+    in2(G, 0).
+
+
+% logical OR
+out(G, 1) :-
+    or(G),
+    in1(G, 1).
+
+out(G, 1) :-
+    or(G),
+    in2(G, 1).
+
+out(G, 0) :-
+    or(G),
+    in1(G, 0),
+    in2(G, 0).
+
+% logical XOR
+out(G, 1) :-
+    xor(G),
+    in1(G, 0),
+    in2(G, 1).
+
+out(G, 1) :-
+    xor(G),
+    in1(G, 1),
+    in2(G, 0).
+
+out(G, 0) :-
+    xor(G),
+    in1(G, 1),
+    in2(G, 1).
+
+out(G, 0) :-
+    xor(G),
+    in1(G, 0),
+    in2(G, 0).
