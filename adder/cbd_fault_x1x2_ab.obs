@@ -1,0 +1,5 @@
+
+% Measurement, that shows that only 'x1' and 'x2' are defect (min. diagnosis)
+% in combination with 'cbd_fault.obs'
+
+out(x1, 0).
