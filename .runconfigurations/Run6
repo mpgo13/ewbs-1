@@ -1,12 +1,12 @@
 <it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>
   <tagVersion>3</tagVersion>
-  <name>Start</name>
+  <name>test5</name>
   <executableName></executableName>
   <executablePath>/usr/bin/dlv</executablePath>
   <outputType>Table</outputType>
   <saveAutomatically>false</saveAutomatically>
-  <maxModelNumberChecked>true</maxModelNumberChecked>
-  <maxModelNumber>50</maxModelNumber>
+  <maxModelNumberChecked>false</maxModelNumberChecked>
+  <maxModelNumber>-1</maxModelNumber>
   <maxIntChecked>false</maxIntChecked>
   <maxInt>-1</maxInt>
   <moreOptionsChecked>false</moreOptionsChecked>
@@ -24,10 +24,10 @@
       <rewritePlugin>---</rewritePlugin>
     </it.unical.mat.aspide.closed.model.RewriteFile>
     <it.unical.mat.aspide.closed.model.RewriteFile>
-      <filePath>/container_test2.dl</filePath>
+      <filePath>/container_test5.dl</filePath>
       <rewritePlugin>---</rewritePlugin>
     </it.unical.mat.aspide.closed.model.RewriteFile>
   </rewriteFileList>
   <rewriteCollector/>
-  <lastRun>2014-11-28 05:15:22.834 CET</lastRun>
+  <lastRun>2014-11-28 06:14:16.779 CET</lastRun>
 </it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>

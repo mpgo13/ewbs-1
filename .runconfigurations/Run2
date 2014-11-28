@@ -2,7 +2,7 @@
   <tagVersion>3</tagVersion>
   <name>test2</name>
   <executableName></executableName>
-  <executablePath>/usr/local/bin/dlv</executablePath>
+  <executablePath>/usr/bin/dlv</executablePath>
   <outputType>Table</outputType>
   <saveAutomatically>false</saveAutomatically>
   <maxModelNumberChecked>false</maxModelNumberChecked>
@@ -15,10 +15,6 @@
   <filters></filters>
   <projectName>ewbs</projectName>
   <rewriteFileList>
-    <it.unical.mat.aspide.closed.model.RewriteFile>
-      <filePath>/container.dl</filePath>
-      <rewritePlugin>---</rewritePlugin>
-    </it.unical.mat.aspide.closed.model.RewriteFile>
     <it.unical.mat.aspide.closed.model.RewriteFile>
       <filePath>/container_check.dl</filePath>
       <rewritePlugin>---</rewritePlugin>
@@ -33,5 +29,5 @@
     </it.unical.mat.aspide.closed.model.RewriteFile>
   </rewriteFileList>
   <rewriteCollector/>
-  <lastRun>1970-01-01 01:00:00.0 CET</lastRun>
+  <lastRun>2014-11-28 06:15:13.484 CET</lastRun>
 </it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>

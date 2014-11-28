@@ -1,6 +1,6 @@
 <it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>
   <tagVersion>3</tagVersion>
-  <name>[container_test2.dl]</name>
+  <name>[ALL_FILES]</name>
   <executableName></executableName>
   <executablePath>/usr/bin/dlv</executablePath>
   <outputType>Table</outputType>
@@ -14,12 +14,7 @@
   <filtersChecked>false</filtersChecked>
   <filters></filters>
   <projectName>ewbs</projectName>
-  <rewriteFileList>
-    <it.unical.mat.aspide.closed.model.RewriteFile>
-      <filePath>/container_test2.dl</filePath>
-      <rewritePlugin>---</rewritePlugin>
-    </it.unical.mat.aspide.closed.model.RewriteFile>
-  </rewriteFileList>
+  <rewriteFileList/>
   <rewriteCollector/>
-  <lastRun>2014-11-28 02:16:56.77 CET</lastRun>
+  <lastRun>1970-01-01 01:00:00.0 CET</lastRun>
 </it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>

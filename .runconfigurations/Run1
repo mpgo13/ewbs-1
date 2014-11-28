@@ -2,8 +2,8 @@
   <tagVersion>3</tagVersion>
   <name>test1</name>
   <executableName></executableName>
-  <executablePath></executablePath>
-  <outputType></outputType>
+  <executablePath>/usr/bin/dlv</executablePath>
+  <outputType>Table</outputType>
   <saveAutomatically>false</saveAutomatically>
   <maxModelNumberChecked>false</maxModelNumberChecked>
   <maxModelNumber>-1</maxModelNumber>
@@ -14,7 +14,20 @@
   <filtersChecked>false</filtersChecked>
   <filters></filters>
   <projectName>ewbs</projectName>
-  <rewriteFileList/>
+  <rewriteFileList>
+    <it.unical.mat.aspide.closed.model.RewriteFile>
+      <filePath>/container_check.dl</filePath>
+      <rewritePlugin>---</rewritePlugin>
+    </it.unical.mat.aspide.closed.model.RewriteFile>
+    <it.unical.mat.aspide.closed.model.RewriteFile>
+      <filePath>/container_guess.dl</filePath>
+      <rewritePlugin>---</rewritePlugin>
+    </it.unical.mat.aspide.closed.model.RewriteFile>
+    <it.unical.mat.aspide.closed.model.RewriteFile>
+      <filePath>/container_test1.dl</filePath>
+      <rewritePlugin>---</rewritePlugin>
+    </it.unical.mat.aspide.closed.model.RewriteFile>
+  </rewriteFileList>
   <rewriteCollector/>
-  <lastRun>1970-01-01 01:00:00.0 CET</lastRun>
+  <lastRun>2014-11-28 06:13:37.438 CET</lastRun>
 </it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>

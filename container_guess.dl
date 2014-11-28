@@ -1,17 +1,4 @@
 
 
-
-colsucc(X1, X2) :-
-    container(C, X1, U),
-    container(C, X2, U),
-    #succ(X1, X2).
-
-rowsucc(Y1, Y2) :-
-    container(C, U, Y1),
-    container(C, U, Y2),
-    #succ(Y1, Y2).
-
-
-filled(X, Y) :- 
-    container(C, X, Y).
-
+% simplest rule: every possible field is either filled or not filled
+filled(X, Y) v -filled(X, Y) :- container(C, X, Y).

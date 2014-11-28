@@ -10,8 +10,8 @@ container(c1,1,1). container(c1,1,2).
 container(c2,2,1).
 
 % colsums
-colsum(1,2).
-colsum(2,1).
+colsum(1, 2).
+colsum(2, 1).
 
 % rowsums
 rowsum(1,2).

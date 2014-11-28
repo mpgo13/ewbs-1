@@ -8,9 +8,10 @@ rowsucc(2, 3).
 rowsucc(3, 4).
 rowsucc(4, 5).
 
-% containers (c1, c2)
+% containers (c1, c2, c3)
 container(c1, 1, 2). container(c1, 1, 3).
 container(c2, 1, 4).
+container(c3, 1, 5).
 
 % colsum
 colsum(1, 3).
