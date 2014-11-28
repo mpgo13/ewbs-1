@@ -116,7 +116,10 @@ s_out(OUT_X2) :- out(x2,OUT_X2).
 % c-out
 c_out(OUT_O1) :- out(o1, OUT_O1).
 
-
+% domain constraints
+:- in1(G, V1), in1(G, V2), V1 != V2.
+:- in2(G, V1), in2(G, V2), V1 != V2.
+:- out(G, V1), out(G, V2), V1 != V2.
 
 
 
