@@ -33,8 +33,8 @@ out(G, 0) :-
     and(G),
     in2(G, 0).
 
-
 % logical OR
+% ==========
 out(G, 1) :-
     or(G),
     in1(G, 1).
@@ -49,6 +49,7 @@ out(G, 0) :-
     in2(G, 0).
 
 % logical XOR
+% ===========
 out(G, 1) :-
     xor(G),
     in1(G, 0),
@@ -68,3 +69,41 @@ out(G, 0) :-
     xor(G),
     in1(G, 0),
     in2(G, 0).
+
+
+% component definition
+% ====================
+xor(x1). xor(x2).
+and(a1). and(a2).
+or(o1).
+
+% component connections
+% =====================
+
+% x1
+in1(x1, A_IN) :- a_in(A_IN).
+in2(x1, B_IN) :- b_in(B_IN).
+
+% x2
+in1(x2, OUT_X1) :- out(x1, OUT_X1).
+in2(x2, C_IN)   :- c_in(C_IN).
+
+% a1
+in1(a1, OUT_X1) :- out(x1, OUT_X1).
+in2(a1, C_IN)   :- c_in(C_IN).
+
+% a2
+in1(a2, A_IN) :- a_in(A_IN).
+in2(a2, B_IN) :- b_in(B_IN).
+
+% o1
+in1(o1, OUT_A1) :- out(a1, OUT_A1).
+in2(o1, OUT_A2) :- out(a2, OUT_A2).
+
+% c-out
+c_out(OUT_O1) :- out(o1, OUT_O1).
+
+
+
+
+
