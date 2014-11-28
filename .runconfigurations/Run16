@@ -1,6 +1,6 @@
 <it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>
   <tagVersion>3</tagVersion>
-  <name>container_test5</name>
+  <name>adder</name>
   <executableName></executableName>
   <executablePath>/usr/bin/dlv</executablePath>
   <outputType>Table</outputType>
@@ -16,18 +16,10 @@
   <projectName>ewbs</projectName>
   <rewriteFileList>
     <it.unical.mat.aspide.closed.model.RewriteFile>
-      <filePath>/container_check.dl</filePath>
-      <rewritePlugin>---</rewritePlugin>
-    </it.unical.mat.aspide.closed.model.RewriteFile>
-    <it.unical.mat.aspide.closed.model.RewriteFile>
-      <filePath>/container_guess.dl</filePath>
-      <rewritePlugin>---</rewritePlugin>
-    </it.unical.mat.aspide.closed.model.RewriteFile>
-    <it.unical.mat.aspide.closed.model.RewriteFile>
-      <filePath>/container_test5.dl</filePath>
+      <filePath>/adder/adder.dl</filePath>
       <rewritePlugin>---</rewritePlugin>
     </it.unical.mat.aspide.closed.model.RewriteFile>
   </rewriteFileList>
   <rewriteCollector/>
-  <lastRun>2014-11-28 06:14:16.779 CET</lastRun>
+  <lastRun>2014-11-28 19:14:27.486 CET</lastRun>
 </it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>

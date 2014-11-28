@@ -1,6 +1,6 @@
 <it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>
   <tagVersion>3</tagVersion>
-  <name>test4</name>
+  <name>container_test4</name>
   <executableName></executableName>
   <executablePath>/usr/bin/dlv</executablePath>
   <outputType>Table</outputType>
@@ -29,5 +29,5 @@
     </it.unical.mat.aspide.closed.model.RewriteFile>
   </rewriteFileList>
   <rewriteCollector/>
-  <lastRun>2014-11-28 06:22:15.426 CET</lastRun>
+  <lastRun>2014-11-28 19:09:33.686 CET</lastRun>
 </it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>

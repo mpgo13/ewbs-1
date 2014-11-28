@@ -1,6 +1,6 @@
 <it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>
   <tagVersion>3</tagVersion>
-  <name>test2</name>
+  <name>container_test2</name>
   <executableName></executableName>
   <executablePath>/usr/bin/dlv</executablePath>
   <outputType>Table</outputType>
