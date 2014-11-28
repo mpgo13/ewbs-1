@@ -1,0 +1,5 @@
+
+% measurement, that shows, x1 is not defect
+% in combination with 'cbd_fault.obs'
+
+out(x1, 1).
