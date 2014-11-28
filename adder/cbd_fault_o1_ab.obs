@@ -1,5 +1,6 @@
 
 % measurement, that shows that 'o1' is defect. 
-% uses 'cbd_fault_x1_ok' and 'cbd_fault.obs'
+% in combination with 'cbd_fault.obs'
 
+out(x1, 1).
 out(a1, 1).
