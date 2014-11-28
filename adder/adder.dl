@@ -23,52 +23,62 @@
 out(G, 1) :- 
     and(G),
     in1(G, 1),
-    in2(G, 1).
+    in2(G, 1),
+    not ab(G).
 
 out(G, 0) :-
     and(G),
-    in1(G, 0).
+    in1(G, 0),
+    not ab(G).
 
 out(G, 0) :- 
     and(G),
-    in2(G, 0).
+    in2(G, 0),
+    not ab(G).
 
 % logical OR
 % ==========
 out(G, 1) :-
     or(G),
-    in1(G, 1).
+    in1(G, 1),
+    not ab(G).
 
 out(G, 1) :-
     or(G),
-    in2(G, 1).
+    in2(G, 1),
+    not ab(G).
 
 out(G, 0) :-
     or(G),
     in1(G, 0),
-    in2(G, 0).
+    in2(G, 0),
+    not ab(G).
 
 % logical XOR
 % ===========
 out(G, 1) :-
     xor(G),
     in1(G, 0),
-    in2(G, 1).
+    in2(G, 1),
+    not ab(G).
 
 out(G, 1) :-
     xor(G),
     in1(G, 1),
-    in2(G, 0).
+    in2(G, 0),
+    not ab(G).
 
 out(G, 0) :-
     xor(G),
     in1(G, 1),
-    in2(G, 1).
+    in2(G, 1),
+    not ab(G).
 
 out(G, 0) :-
     xor(G),
     in1(G, 0),
-    in2(G, 0).
+    in2(G, 0),
+    not ab(G).
 
 
 % component definition
@@ -99,6 +109,9 @@ in2(a2, B_IN) :- b_in(B_IN).
 % o1
 in1(o1, OUT_A1) :- out(a1, OUT_A1).
 in2(o1, OUT_A2) :- out(a2, OUT_A2).
+
+% s-out
+s_out(OUT_X2) :- out(x2,OUT_X2).
 
 % c-out
 c_out(OUT_O1) :- out(o1, OUT_O1).
