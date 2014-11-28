@@ -1,0 +1,48 @@
+
+% 6 columns
+colsucc(1, 2).
+colsucc(2, 3).
+colsucc(3, 4).
+colsucc(4, 5).
+colsucc(5, 6).
+
+% 5 rows
+rowsucc(1, 2).
+rowsucc(2, 3).
+rowsucc(3, 4).
+rowsucc(4, 5).
+
+% containers (c1 .. c9)
+container(c1, 1, 2). container(c1, 2, 2).
+container(c2, 2, 3).
+container(c3, 1, 4). container(c3, 2, 4). container(c3, 2, 5).
+container(c4, 4, 1).
+container(c5, 5, 2). container(c5, 5, 3).
+container(c6, 4, 4).
+container(c7, 5, 5).
+container(c8, 6, 4).
+container(c9, 6, 1).
+
+% colsums
+colsum(1, 1).
+colsum(2, 1).
+colsum(3, 0).
+colsum(4, 2).
+colsum(5, 2).
+colsum(6, 1).
+
+% rowsums
+rowsum(1, 1).
+rowsum(2, 2).
+rowsum(3, 0).
+rowsum(4, 3).
+rowsum(5, 1).
+
+% expected results
+filled(1, 2).
+filled(2, 4).
+filled(4, 1).
+filled(4, 4).
+filled(5, 2).
+filled(5, 5).
+filled(6, 4).

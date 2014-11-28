@@ -1,6 +1,6 @@
 <it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>
   <tagVersion>3</tagVersion>
-  <name>[container_test2.dl]</name>
+  <name>Start</name>
   <executableName></executableName>
   <executablePath>/usr/bin/dlv</executablePath>
   <outputType>Table</outputType>
@@ -16,10 +16,14 @@
   <projectName>ewbs</projectName>
   <rewriteFileList>
     <it.unical.mat.aspide.closed.model.RewriteFile>
-      <filePath>/container_test2.dl</filePath>
+      <filePath>/container_check.dl</filePath>
+      <rewritePlugin>---</rewritePlugin>
+    </it.unical.mat.aspide.closed.model.RewriteFile>
+    <it.unical.mat.aspide.closed.model.RewriteFile>
+      <filePath>/container_guess.dl</filePath>
       <rewritePlugin>---</rewritePlugin>
     </it.unical.mat.aspide.closed.model.RewriteFile>
   </rewriteFileList>
   <rewriteCollector/>
-  <lastRun>2014-11-28 02:16:56.77 CET</lastRun>
+  <lastRun>2014-11-28 02:16:22.925 CET</lastRun>
 </it.unical.mat.aspide.closed.model.RunConfigurationMemorySupport>

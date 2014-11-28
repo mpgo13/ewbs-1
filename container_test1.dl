@@ -1,16 +1,24 @@
 
+% 2 columns
 colsucc(1,2).
+
+% 2 rows
 rowsucc(1,2).
 
+% containers (c1, c2)
 container(c1,1,1). container(c1,1,2).
-container(c1,2,1).
+container(c2,2,1).
 
+% colsums
 colsum(1,2).
 colsum(2,1).
 
+% rowsums
 rowsum(1,2).
 rowsum(2,1).
 
-filled(1, 1).
-filled(1, 2).
-filled(2, 1).
+% expected results
+
+% filled(1, 1).
+% filled(1, 2).
+% filled(2, 1).
