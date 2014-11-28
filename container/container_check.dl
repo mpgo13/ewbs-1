@@ -10,7 +10,7 @@
     #count{ Element : filled(X, Element) } > COLSUM.
 
 :-  rowsum(Y, ROWSUM),
-    #count{ Element : filled(Element, Y) } < ROWSUM.
+    #count{ Element : filled(Element, Y) } > ROWSUM.
 
 :-  rowsum(Y, ROWSUM),
     #count{ Element : filled(Element, Y) } < ROWSUM.
