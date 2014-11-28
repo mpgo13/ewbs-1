@@ -1,0 +1,7 @@
+
+a_in(0).
+b_in(0).
+c_in(1).
+
+expect_s_out(1).
+expect_c_out(0).

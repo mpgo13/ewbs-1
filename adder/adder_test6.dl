@@ -1,0 +1,9 @@
+
+% default test from specification
+
+a_in(1).
+b_in(0).
+c_in(0).
+
+expect_s_out(1).
+expect_c_out(0).
