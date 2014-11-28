@@ -23,5 +23,8 @@
   <visualaspdlvfile URI="/adder/cbd_fault.obs" ENABLED="true" TYPE="dlvFile" />
   <visualaspdlvfile URI="/adder_test1.obs" ENABLED="true" TYPE="dlvFile" />
   <visualaspdlvfile URI="/cbd.hyp" ENABLED="true" TYPE="dlvFile" />
+  <visualaspdlvfile URI="/adder/cbd_fault_x1_ok.obs" ENABLED="true" TYPE="dlvFile" />
+  <visualaspdlvfile URI="/adder/cbd_fault_o1_ab.obs" ENABLED="true" TYPE="dlvFile" />
+  <visualaspdlvfile URI="/adder/cbd_fault_x1x2_ab.obs" ENABLED="true" TYPE="dlvFile" />
 </visualaspproject>
 
