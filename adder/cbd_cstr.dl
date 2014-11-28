@@ -1,0 +1,11 @@
+
+% DUPLICATED_s_out(X,Y) :- s_out(X), s_out(Y), X < Y.
+% DUPLICATED_c_out(X,Y) :- c_out(X), c_out(Y), X < Y.
+
+% :- DUPLICATED_s_out(X,Y).
+% :- DUPLICATED_c_out(X,Y).
+
+
+% alternative, but I prefer the former :)
+:- s_out(X), s_out(Y), X < Y.
+:- c_out(X), c_out(Y), X < Y.
