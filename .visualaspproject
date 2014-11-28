@@ -19,5 +19,9 @@
   <visualaspdlvfile URI="/adder/adder_test7.dl" ENABLED="true" TYPE="dlvFile" />
   <visualaspdlvfile URI="/adder/adder_test8.dl" ENABLED="true" TYPE="dlvFile" />
   <visualaspdlvfile URI="/adder/adder_test_system.dl" ENABLED="true" TYPE="dlvFile" LAZY="false" EXCLUDE_FEATURES="Arithmetic Expressions.%%Existential Terms.%%Warnings Detection." />
+  <visualaspdlvfile URI="/adder/cbd_cstr.dl" ENABLED="true" TYPE="dlvFile" />
+  <visualaspdlvfile URI="/adder/cbd_fault.obs" ENABLED="true" TYPE="dlvFile" />
+  <visualaspdlvfile URI="/adder_test1.obs" ENABLED="true" TYPE="dlvFile" />
+  <visualaspdlvfile URI="/cbd.hyp" ENABLED="true" TYPE="dlvFile" />
 </visualaspproject>
 
