@@ -1,0 +1,18 @@
+
+% Logic gates
+%   and(Gate)
+%   or(Gate)
+%   xor(Gate)
+
+% Input signals for gates
+%   in1(Gate, Value)
+%   in2(Gate, Value)
+
+% Output signal for gate
+%   out(Gate, Value)
+
+
+% Input signal for the circuit
+%   a_in(Value)
+%   b_in(Value)
+%   c_in(Value)
